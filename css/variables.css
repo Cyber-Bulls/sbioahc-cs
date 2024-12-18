@@ -1,0 +1,30 @@
+:root {
+  /* Primary Colors from SBI Website */
+  --primary-color: #2d0063;  /* Deep Purple */
+  --secondary-color: #1a75ff; /* SBI Blue */
+  --accent-color: #ffb400;   /* SBI Gold/Yellow */
+  
+  /* Background Gradient */
+  --background-gradient: linear-gradient(135deg, var(--primary-color) 0%, #1e4799 100%);
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.9);
+  --text-muted: rgba(255, 255, 255, 0.6);
+  
+  /* UI Element Colors */
+  --container-bg: rgba(255, 255, 255, 0.08);
+  --element-bg: rgba(255, 255, 255, 0.07);
+  --element-hover: rgba(255, 255, 255, 0.15);
+  
+  /* Border Radii */
+  --border-radius-lg: 20px;
+  --border-radius-md: 10px;
+  --border-radius-sm: 5px;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+}

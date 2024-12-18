@@ -1,0 +1,13 @@
+@import '../variables.css';
+
+.footer {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: var(--spacing-lg);
+}
+
+.footer .small {
+    font-size: 0.8rem;
+    margin-top: var(--spacing-xs);
+    color: var(--text-muted);
+}

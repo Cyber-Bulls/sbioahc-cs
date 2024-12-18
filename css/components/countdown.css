@@ -1,0 +1,36 @@
+@import '../variables.css';
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+}
+
+.countdown-item {
+    text-align: center;
+    min-width: 80px;
+    background: var(--element-bg);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.countdown-item:hover {
+    transform: translateY(-2px);
+}
+
+.countdown-item .number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    display: block;
+    line-height: 1;
+}
+
+.countdown-item .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: var(--spacing-xs);
+}
